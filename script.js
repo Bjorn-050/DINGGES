@@ -82,6 +82,7 @@ jaKnop.addEventListener('click', () => {
     emailjs.send("service_o5hsqrs", "template_c81fpma", {
         antwoord: "JA!! 🎉",
         naam: "Jassie"
+        to_email: "bjornpijper21@gmail.com"
     })
     .then(() => {
         console.log("E-mail verzonden!");
@@ -93,3 +94,4 @@ jaKnop.addEventListener('click', () => {
     main.classList.remove('actief');
     schermJa.classList.add('actief');
 });
+
